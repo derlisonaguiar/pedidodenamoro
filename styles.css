@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('C:/Users/FINAMAEDU/Documents/Derlison/Códigos/Javascript/Pedido de namoro/Image/png-transparent-heart-heart-s-with-background-love-3d-computer-graphics-heart.png');
+    background-size: contain; /* Ajuste a imagem ao tamanho adequado */
+    background-repeat: repeat; /* Repete a imagem em todo o fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+button.yes {
+    background-color: #28a745;
+    border: 2px solid #28a745;
+}
+
+button.no {
+    background-color: #dc3545;
+    border: 2px solid #dc3545;
+}
+
+.hidden {
+    display: none;
+}
